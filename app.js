@@ -54,6 +54,6 @@ app.use("*", (req, res) =>{
 });
 
 //listen to server
-app.listen(2009, () => {
-    console.log(`Server running on http://localhost:2009/api/v1`);
+app.listen(2007, () => {
+    console.log(`Server running on http://localhost:2007/api/v1`);
 })

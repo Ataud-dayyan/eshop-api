@@ -38,7 +38,7 @@ router.post(
     isLogin,
     isAdmin,
     async (req, res) =>{
-    let file = req.files;
+    let file = req.file;
     if (!file) {
         res.status(404).send("Product image is required");
     }
